@@ -1,0 +1,138 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{listings}
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{framed}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{MSAN 610 - Meetup}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \author{Arda Aysu, Andre Guimaraes Duarte, Roger Wu}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \predate{\centering\large\emph}
+  \postdate{\par}
+  \date{\today}
+  
+% Redefines (sub)paragraphs to behave more like section*s
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+\usepackage{color}
+\usepackage{setspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\maketitle
+
+\doublespacing
+
+%Each group must turn-in a write-up (2-3 pages, depending on the size of the group)
+%which answers the following question:
+%1. For each group member discuss, in a few sentences, what they could have done
+%better and what they did well.
+%2. If you could do it all over, what would each of you have done differently?
+%3. Consider the content being delivered at the Meetup:
+%– What did the speaker do well?
+%– What did they do poorly?
+%– Who was the intended audience of the speaker?
+%– What was the purpose of the talk?
+%– Did the speaker achieve their set-out goal?
+
+On August 25th, we went to the \textit{GraphQL in Production} meetup in San Francisco. GraphQL is a data query language developed by Facebook in 2012 in order to request and deliver data to mobile and web apps. Facebook needed a querying language that was simple yet powerful in order to be effective at the scale of the billion+ users in the network. GraphQL is in the process of being open-sourced, and many talks are being made in order to garner new users of this growing platform.
+
+\section*{What did we do well? What could we have done better?}
+\paragraph{Arda}
+
+
+
+
+
+\paragraph{Andre}
+During the socializing before the talks, Andre spoke to Matt, a Software Engineer in the GraphQL team at Facebook. After the talks, he talked to Geoff Schmidt, CEO and co-founder of Meteor (where the meetup took place). Andre managed to introduce himself well, stating clearly that he was a student at USF interested in the new technologies that are being used in the industry. He smiled, maintained eye-contact with the people he was talking to, and managed to keep the conversation going by asking some relevant questions about the subjects being discussed. However, one thing he can do better is to talk louder and more articulately. Indeed, on two occasions, he was asked to repeat his question. It is often the case that these meetups are loud and messy environments, so it is important to be aware if we are speaking too softly or mumbling up some words.
+
+
+
+\paragraph{Roger}
+The first person that Roger spoke to was Praveen, a freelance software engineer. This conversation went well with both members showing interest and enthusaism. Roger showed interest in Praveen's background as he continuously asked questions about his work. The conversation felt balanced with both members asking and answering questions equally. One thing that Roger could work on was the closing of the conversation. It felt a bit awkward and forced when the conversation ended. Roger could work on having a "go-to" line to politely end the conversation. 
+
+The second person that Roger met was Hyo, a software engineer on the GraphQL team at Facebook. The initial conversation started off well with both members asking about each other's background. However, later on, Roger struggled to keep the conversation going. He hesitated several times because he could not quickly come up with a follow-up question or comment. This time Roger ended the conversation better by politely thanking Hyo for his time.
+
+
+
+\section*{If we could do it all over, what would we do differently?}
+\paragraph{Arda}
+
+
+
+
+\paragraph{Andre}
+If I could do it all over, I would be more assertive about what interests me in Data Science and Analytics. I know that this will come gradually as we have more and more courses on different subjects, but I feel that having more knowledge on the specific tools being used will help me maintain the conversation going for longer, by being able to understand and ask better questions to the people I am talking to. I will also make an effort to enunciate better and speak louder, so that people don't need to ask me to repeat what I just said.
+
+
+
+\paragraph{Roger}
+If I could do it all over, I would have been more brave and approached people earlier. I was a bit nervous and did not get a chance to talk to anyone before the presentations started. Since it was getting late, most of the audience had left after the presentations. This resulted in my first conversation being a bit rushed because I wanted to mingle with two people before the event was over. Also, I would avoid asking technical questions. I asked Hyo (the presenter) on how GraphQL works and he rambled on with too many technical details that went over my head.
+
+
+
+\section*{The content of the talks}
+At this meetup, four talks were scheduled for the evening.
+
+First, Nick Nance from Credit Karma spoke about managing GraphQL at scale. He explained how shifting to GraphQL makes the back-end and front-end developing easier than using previous tools. Aside from one low-quality screenshot of a terminal in his slides, Nick's talk was made to the right audience, with good intention, and using the right medium.
+
+Second, Hyo Jeong, the main developer behind GraphQL at Facebook, gave a talk focusing on Graph\textit{i}QL, an in-browser IDE for managing GraphQL that he is currently developing. Hyo was very comfortable on stage, smiling and laughing as he went along his slides, which were clean and concise. Although he had a slight hiccup at first with a live demo of Graph\textit{i}QL, the presentation was great.
+
+Third, the co-founders of Scaphold.io, Michael Paris and Vince Ning took the stage to talk about how they use GraphQL as a service on their website, which helps build scalable apps with this new tool. Although their talk was interesting and they knew what they wanted to say and to whom, the live demo they had planned did not work at all. In addition, the projection was not zoomed-in enough for the audience to be able to see what was on the screen. We feel that they failed on the medium. 
+
+Finally, Rohit Bakhshi, Product Manager at Meteor, gave the final talk of the night on how using GraphQL improves front-end performance and increases developer productivity since it is so easy to implement and yet so powerful. However, his talk was the weakest of the four, failing to captivate the audience (maybe because he was the last one to present), and the intention was not exactly clear to us. In addition, his live demo was not zoomed-in enough, and he failed to understand when the audience asked him to "make it bigger".
+
+
+
+
+
+
+
+
+
+
+\end{document}
